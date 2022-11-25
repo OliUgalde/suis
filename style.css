@@ -7,7 +7,7 @@
 * {
   scroll-behavior: smooth;
   scrollbar-width: thin;
-  scrollbar-color: rgb(5, 34, 102) rgb(200,200,200);
+  scrollbar-color: rgb(8, 35, 8) rgb(200,200,200);
 }
 *::-webkit-scrollbar {
   width: 12px;
@@ -16,19 +16,19 @@
   background: rgba(200,200,200,0.3);
 }
 *::-webkit-scrollbar-thumb {
-  background-color: rgb(5, 84, 251);
+  background-color: rgb(55, 127, 92);
   border-radius: 20px;
   border: 3px solid rgb(200,200,200, 0.4);
 }
 @font-face {
-  font-family: "Kanit-SemiBold";
-  src: url("Kanit-SemiBold.ttf");
+  font-family: "OriginTech";
+  src: url("OriginTech.otf");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-  font-family: "Kanit-Light";
-  src: url("Kanit-Light.ttf");
+  font-family: "good timing bd";
+  src: url("good timing bd.ttf");
   font-style: normal;
   font-weight: normal;
 }
@@ -41,14 +41,13 @@ rect {
 }
 .carousel{
   text-shadow: black 0.1em 0.1em 0.2em;
-  background: linear-gradient(45deg,rgb(0, 0, 0), rgb(5, 34, 102)40%,rgba(63, 65, 71, 0.8), rgba(220, 220, 220, 0.7),rgba(63, 65, 71, 0.8), rgb(5, 84, 251)90%,rgb(0, 0, 0));
+  background: transparent;
 }
 aside.py-5.text-center.container{
   margin-top: 50px;
   padding: 400px 20px;
   text-shadow: black 0.1em 0.1em 0.2em;
-  background: linear-gradient(45deg,rgb(0, 0, 0), rgba(5, 34, 102,0.9)40%,rgba(63, 65, 71, 0.7), rgba(220, 220, 220, 0.5),rgba(63, 65, 71, 0.7), rgb(5, 84, 251)90%,rgb(0, 0, 0));
-}
+  background: transparent;}
 .white{
   color: rgb(244, 244, 244);
 }
@@ -65,9 +64,16 @@ body {
     position: relative;
     width: 100%;
     padding-top: 3rem;
-  color: rgb(5, 34, 102);
-  font-family: "Kanit-SemiBold";
+    color: rgb(5, 34, 102);
 }
+
+h1, h2, h3 {
+  font-family: "OriginTech";
+}
+p, a {
+  font-family: "good timing bd";
+}
+
 .align-center , .center{
   display: flex;
   margin: auto;
@@ -80,21 +86,22 @@ body {
   max-height: 200px;
 }
 .redes {
-  border-radius: 0px 25px 25px 0px;
+  display: flex;
+  border-radius: 25px 25px 0px 0px;
   padding: 10px;
-  background-color: rgba(244, 244, 244,0.9);
+  background-color: rgba(255, 247, 0,0.8);
   position: fixed;
   -webkit-position: fixed;
   -moz-position: fixed;
   -o-position: fixed;
-  top: 50%;
-  -webkit-top: 50%;
-  -moz-top: 50%;
-  -o-top: 50%;
-  left: 0px;
-  -webkit-left: 0px;
-  -moz-left: 0px;
-  -o-left: 0px;
+  top: 90%;
+  -webkit-top: 90%;
+  -moz-top: 90%;
+  -o-top: 90%;
+  right: 0px;
+  -webkit-right: 0px;
+  -moz-right: 0px;
+  -o-right: 0px;
   z-index: 10;
   transition: 0.6s;
 -webkit-transition: 0.6s;
@@ -122,7 +129,7 @@ a.flechita img {
   overflow-x: scroll;
   color: rgb(3, 14, 37);
   font-size: 15px;
-  font-family: Kanit-Light;
+  font-family: good timing bd;
   text-align: justify;
   width: 80%;
   height: auto;
@@ -255,7 +262,7 @@ footer {
 .pie-pagina {
   background-color: rgb(220, 220, 220);
   color: black;
-  font-family: Kanit-Light;
+  font-family: good timing bd;
   font-size: 15px;
   text-decoration: none;
   width: 100%;
@@ -275,7 +282,7 @@ footer {
 }
 .pie-pagina a {
   color: black;
-  font-family: Kanit-Light;
+  font-family: good timing bd;
   text-decoration: none;
 }
 .foot {
@@ -283,7 +290,7 @@ footer {
   border-right: 2px solid rgb(150, 150, 150);
   position: relative;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   grid-template-rows: 1fr;
   transition: 0.6s;
 -webkit-transition: 0.6s;
@@ -302,7 +309,92 @@ footer {
   animation-delay: 0.9s;
   animation-iteration-count: infinite;
 }
+h2.box {
+  top: 0px;
+  width: 100%vh;
+  background: #058789;
+  background-size: cover;
+  text-decoration: none;
+  text-align: left;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  color: rgb(180, 180, 180);
+  font-size: 20px;
+  font-family: "OriginTech", serif;
+  padding: 7px 10px;
+  margin: 0px;
+  text-align: justify;
+  z-index: 7;
+  }
+div.cartas{
+  padding: 20px 10px;
+  position: relative;
+  top: 20px;
+  left: 0px;
+  right: 0px;
+  height: 77%;
+  background:linear-gradient(0deg, rgb(197, 219, 197)70%, rgb(45, 106, 45)); 
+  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+ div.inbox{
+  display: grid;
+  height: 400px;
+  grid-template-columns: repeat(5, 200px);
+  grid-gap: 15px;
+  grid-template-rows: 1fr;
+  padding: 35px 120px;
+  overflow-x: hidden;
+}
+.inbox {
+  margin-top: -15px;
+  font-size: 20px;
+  padding: 50px;
+  color: rgb(180, 180, 180);
+  background-color: transparent;
+  transition: 0.7s;
+}
+.card p {
+  text-align: justify;
+  padding: 5px 20px;
+  font-family:"good timing bd", serif;
+  font-size: 20px;
+  color: rgb(180, 180, 180);
+}
+div.card {
+  position: relative;
+  background: whitesmoke;
+  border-radius: 0px;
+  transition: 0.7s;
+  margin-left: -35px;
+  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  height: 95%;
+  align-content: center;
+  z-index: 9;
+}
+.card:hover {
+  transform: scale(1.1);
+  margin-left: -95px;
+  margin-right: 60px;
+}
+.box {
+  position: sticky;
+  top: 15px;
+}
+section {
+  background-color: rgb(45, 106, 45);
+  width: 100%;
+  margin-top: 0px;
+  position: relative;
+}
 
+.carousel-control-next:hover {
+
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -316,10 +408,17 @@ footer {
   .featurette-heading {
     font-size: 50px;
   }
+  div.inbox{
+    overflow-x: scroll;
+  }
 }
+
 
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+  div.inbox{
+    overflow-x: hidden;
   }
 }  

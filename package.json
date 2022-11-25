@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "name": "suis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliUgalde/suis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OliUgalde/suis/issues"
+  },
+  "homepage": "https://github.com/OliUgalde/suis#readme",
+  "description": ""
+}
